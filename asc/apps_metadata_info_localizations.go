@@ -106,6 +106,7 @@ type AppInfoLocalizationUpdateRequestAttributes struct {
 	PrivacyPolicyText *string `json:"privacyPolicyText,omitempty"`
 	PrivacyPolicyURL  *string `json:"privacyPolicyUrl,omitempty"`
 	Subtitle          *string `json:"subtitle,omitempty"`
+	PrivacyChoicesURL *string `json:"privacyChoicesUrl,omitempty"`
 }
 
 // AppInfoLocalizationsResponse defines model for AppInfoLocalizationsResponse.
